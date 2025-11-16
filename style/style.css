@@ -318,6 +318,7 @@ footer {
     }
 
     .hero-content {
+        margin-top: 60px;
         padding: 20px;
     }
 
@@ -327,6 +328,17 @@ footer {
 
     .hero-content p {
         text-align: justify;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000; 
+        background-color: var(--color-white); 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        padding: 15px 16px; 
     }
 
     .nav-list {
@@ -353,6 +365,7 @@ footer {
 
     .menu-toggle {
         display: flex;
+        position: relative;
     }
 
     .menu-toggle.active span:nth-child(1) {
