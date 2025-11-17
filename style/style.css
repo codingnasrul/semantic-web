@@ -23,6 +23,7 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 /* --- Main Color --- */
@@ -35,8 +36,7 @@ a {
 }
 
 header {
-    background-color: var(--color-white); 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: var(--color-white);
 }
 
 nav {
@@ -92,6 +92,7 @@ nav {
 }
 
 .hero-content {
+    background: #f4f7f9;
     padding-top: 50px;
     text-align: center;
     min-height: 250px;
